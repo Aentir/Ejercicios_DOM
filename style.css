@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #D3D3D3;
+}
+
+#titulo {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+h1{
+    color: cornsilk;
+    margin: auto;
+    text-align: center;
+}
+
+#subtitulo{
+    text-align: center;
+    width: 850px;
+    margin: auto;
+    background-color: #fff;
+}
+
+#info{
+    width: 850px;
+    margin: auto;
+    background-color: grey;
+    align-content: flex-start;
+}
+
+#pie{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#tabla{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2%;
+    background-color: #ffff;
+    width: 850px;
+}
+
+#tabla_2{
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    text-align: left;
+}

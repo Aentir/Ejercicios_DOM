@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    height: 3000px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 500px;
+}
+
+section {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+article {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+
+#firstTable {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 2%;
+}  
+
+div {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    transition: all 2s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grande {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 50%;
+    transition: all 2s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one { background-color: beige; transition: all 3s; }
+.two { background-color: blueviolet; transition: all 3s; }
+.three { background-color: coral; transition: all 3s; }
+.four { background-color: cornflowerblue; transition: all 3s; }
+.five { background-color: darkgoldenrod; transition: all 3s; }
